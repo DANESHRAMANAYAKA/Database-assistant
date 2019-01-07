@@ -1,0 +1,23 @@
+
+t[employees-
+*employeesID,
+name,
+contacts,
+]
+
+t[department-
+*code,
+mgr,
+]
+
+t[project-
+*number,
+name,
+]
+
+
+r[department work employees-1 to * ]
+
+
+
+r[project work employees-1 to * ]
